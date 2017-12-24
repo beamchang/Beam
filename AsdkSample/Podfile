@@ -5,6 +5,6 @@ platform :ios, '8.0'
 # use_frameworks!
 
 target 'AsdkSample' do
-	pod 'AsyncDisplayKit', :path => '../..'
+	pod 'AsyncDisplayKit'
 end
 
