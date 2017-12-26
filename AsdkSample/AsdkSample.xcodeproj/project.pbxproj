@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		18A4ACBA1FEF8DAF002F6CBE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 18A4ACB91FEF8DAF002F6CBE /* Podfile */; };
+		18A4EB131FF28BC300CE0770 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4EB121FF28BC300CE0770 /* FirstViewController.m */; };
+		18A4EB161FF28C4D00CE0770 /* PathGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4EB151FF28C4D00CE0770 /* PathGradientView.m */; };
 		18ABBA521FEF8D0D008B94E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ABBA511FEF8D0D008B94E2 /* AppDelegate.m */; };
 		18ABBA5A1FEF8D0D008B94E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18ABBA591FEF8D0D008B94E2 /* Assets.xcassets */; };
 		18ABBA601FEF8D0D008B94E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ABBA5F1FEF8D0D008B94E2 /* main.m */; };
@@ -17,6 +19,10 @@
 /* Begin PBXFileReference section */
 		1507ECA9B2073ABA0553C66A /* libPods-AsdkSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AsdkSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A4ACB91FEF8DAF002F6CBE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		18A4EB111FF28BC300CE0770 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		18A4EB121FF28BC300CE0770 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		18A4EB141FF28C4D00CE0770 /* PathGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathGradientView.h; sourceTree = "<group>"; };
+		18A4EB151FF28C4D00CE0770 /* PathGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathGradientView.m; sourceTree = "<group>"; };
 		18ABBA4D1FEF8D0D008B94E2 /* AsdkSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsdkSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18ABBA501FEF8D0D008B94E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18ABBA511FEF8D0D008B94E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +69,10 @@
 			children = (
 				18ABBA501FEF8D0D008B94E2 /* AppDelegate.h */,
 				18ABBA511FEF8D0D008B94E2 /* AppDelegate.m */,
+				18A4EB111FF28BC300CE0770 /* FirstViewController.h */,
+				18A4EB121FF28BC300CE0770 /* FirstViewController.m */,
+				18A4EB141FF28C4D00CE0770 /* PathGradientView.h */,
+				18A4EB151FF28C4D00CE0770 /* PathGradientView.m */,
 				18ABBA591FEF8D0D008B94E2 /* Assets.xcassets */,
 				18ABBA5E1FEF8D0D008B94E2 /* Info.plist */,
 				18ABBA5F1FEF8D0D008B94E2 /* main.m */,
@@ -212,7 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18ABBA601FEF8D0D008B94E2 /* main.m in Sources */,
+				18A4EB131FF28BC300CE0770 /* FirstViewController.m in Sources */,
 				18ABBA521FEF8D0D008B94E2 /* AppDelegate.m in Sources */,
+				18A4EB161FF28C4D00CE0770 /* PathGradientView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
